@@ -1,0 +1,52 @@
+---
+title: "Mini-Lesson 1: Command Line, Quarto, Vim and GitHub"
+author: "Alex Xi Lan" 
+format:
+  revealjs:
+    slide-number: true
+    chalkboard: false 
+    preview-links: auto
+execute:
+  eval: true
+  echo: true
+---
+
+## Review of commands  {.smaller}
+
+
+| Action | macOS (Terminal) | Windows (PowerShell) |
+| --- | --- | --- |
+| Show current folder | `pwd` | `pwd` |
+| List files in folder | `ls` | `ls` |
+| Change into a folder | `cd <folder>` | `cd <folder>` |
+| Go up one level | `cd ..` | `cd ..` |
+| Create a new folder | `mkdir <folder>` | `mkdir <folder>` |
+| Make an empty file | `touch <filename>` | `New-Item <filename>` |
+| View a text file quickly | `cat <filename>` | `Get-Content <filename>` |
+
+- need to be inside of a git repo directory to use git commands
+
+<!--  Alternative YAML
+---
+  revealjs:
+    slide-number: true
+    chalkboard: false 
+    preview-links: auto
+    footer: "VSCode, Quarto, and Jupyter Workshop"
+  html:
+    toc: true
+    number-sections: true
+    html-math-method: katex
+  beamer:
+    theme: Madrid
+    colortheme: dolphin
+    fonttheme: structurebold
+    navigation: horizontal
+    section-titles: true
+  pdf:
+    documentclass: article
+    papersize: letter
+    toc: true
+    number-sections: true
+    colorlinks: true
+--- -->
