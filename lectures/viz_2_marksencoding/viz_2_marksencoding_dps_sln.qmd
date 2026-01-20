@@ -34,3 +34,4 @@ alt.Chart(seattle).mark_bar().encode(
 ```
 
 `altair` now orders `precipitation` *alphabetically*
+
